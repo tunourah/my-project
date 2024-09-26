@@ -3,7 +3,7 @@ import React from 'react';
  
 const Card = ({ title, description, image }) => {
   return (
-    <div className="bg-white p-6 shadow flex">
+    <div className="bg-white p-6 shadow flex transition-transform duration-200 hover:bg-gray-100 hover:shadow-lg ">
       <img src={image} alt={title} className="w-1/3 h-32 object-cover mr-4" />
       <div className="flex-1">
         <h4 className="font-semibold">{title}</h4>
