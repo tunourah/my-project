@@ -16,7 +16,7 @@ const Hero = () => {
               <div className="absolute inset-0 flex flex-col justify-center items-center text-center text-white  bg-opacity-50">
                 <h2 className="text-lg font-semibold">WOODEN MINIMALISTIC CHAIRS</h2>
                 <p className="text-gray-300">SALE UP TO 40% Off</p>
-                <button className="bg-yellow-500 text-white py-2 px-4 rounded mt-4">Shop Now</button>
+                <button className="bg-yellow-500 text-white py-2 px-4 rounded mt-4 hover:bg-slate-700">Shop Now</button>
               </div>
             </div>
           </div>

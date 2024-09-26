@@ -9,7 +9,7 @@ const Footer = () => {
             <h4 className="text-2xl font-semibold">Bose Bluetooth Wireless Headphones</h4>
             <p className="text-gray-500 line-through">$260.50</p>
             <p className="text-green-600 font-bold">$219.05</p>
-            <button className="bg-yellow-500 text-white py-2 px-4 rounded mt-4">Shop Now</button>
+            <button className="bg-yellow-500 text-white py-2 px-4 rounded mt-4  hover:bg-slate-700">Shop Now</button>
           </div>
           <div className="flex-1 max-h-72">
             <img 
