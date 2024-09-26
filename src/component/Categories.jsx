@@ -1,6 +1,6 @@
 import React from 'react';
 
-// Card component that accepts props for title, description, and image
+ 
 const Card = ({ title, description, image }) => {
   return (
     <div className="bg-white p-6 shadow flex">
@@ -16,12 +16,11 @@ const Card = ({ title, description, image }) => {
     </div>
   );
 };
-
-// Main component that renders the cards
+ 
 const Categories = () => {
   return (
     <section className="container mx-auto my-6">
-      <h3 className="text-2xl font-semibold text-center mb-6">Top Categories Of The Month</h3>
+      <h3 className="text-2xl font-semibold   mb-6">Top Categories Of The Month</h3>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {/* Using the Card component with props */}
         <Card 
